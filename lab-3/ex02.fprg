@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex02"/>
+        <attribute name="authors" value="plainakarin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 12:32:00 PM"/>
+        <attribute name="created" value="cGxhaW5ha2FyaW47TEFQVE9QLUdHQlZSVDFMOzIwMjUtMDgtMDY7MTI6Mjg6NTggUE07MzU0OQ=="/>
+        <attribute name="edited" value="cGxhaW5ha2FyaW47TEFQVE9QLUdHQlZSVDFMOzIwMjUtMDgtMDY7MTI6MzI6MDAgUE07MTszNjM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <if expression="!(num &gt;= 1 &amp;&amp; num &lt;= 100)">
+                <then>
+                    <output expression="&quot;Index out of range&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num % 2 == 0">
+                        <then>
+                            <output expression="&quot;Even&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Odd&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
