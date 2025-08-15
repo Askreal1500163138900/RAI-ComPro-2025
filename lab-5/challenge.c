@@ -21,7 +21,7 @@ int main(){
         if (counted[i]){
             continue;
         }
-        for (int j = 0; j < element; j++) {
+        for (int j = i+1 ; j < element; j++) {
             if (nums[i] == nums[j]) {
                 count++;
                 counted[j] = 1;
