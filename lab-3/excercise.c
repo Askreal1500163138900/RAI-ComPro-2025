@@ -33,7 +33,7 @@ int calculator1(){
     }
     else if (op == 4)
     {
-        result = num1 / num2;
+        result = num1 / num2;   
         printf("Ans. : Num1 / Num2 = %d\n",result);
     }
     
