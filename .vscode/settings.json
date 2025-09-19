@@ -3,5 +3,6 @@
         "stdio.h": "c",
         "limits": "c"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "editor.tabCompletion": "on"
 }
